@@ -1,0 +1,42 @@
+body {
+  font-family: 'CenturyGothic' !important;
+}
+#header {
+  background: url("../images/head.png");
+  background-position: center center;
+  background-size: cover;
+  min-height: 250px;
+}
+.dn {
+  display: none;
+}
+.centuryF {
+  font-family: 'CenturyGothic';
+}
+#map {
+  height: 450px;
+}
+#contentPanel {
+  height: 100vh;
+  background: #00b4db; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, right top, left top, from(#00b4db), to(#0083b0));
+  background: linear-gradient(to left, #00b4db, #0083b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.breadCustom {
+  width: 25% !important;
+  background: none !important;
+}
+.breadCustom .listBreadCustom {
+  background: none;
+  padding: 0.2rem;
+}
+.breadCustom .listBreadCustom .breadcrumb-item a {
+  color: #fff !important;
+}
+.breadCustom .listBreadCustom .active {
+  color: #3e8c82 !important;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+  color: #fff;
+  content: ">";
+}

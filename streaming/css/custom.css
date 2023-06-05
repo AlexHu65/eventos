@@ -1,0 +1,180 @@
+/* globales */
+
+*{
+
+  font-family: 'Poppins-Regular' !important;
+
+
+
+}
+
+
+
+body{
+
+  font-family: 'Poppins-Regular' !important;
+
+}
+
+/* utilidades */
+
+.poppinBlack{
+
+  font-family: 'Poppins-Black' !important;
+
+}
+
+.mainColor{
+
+  /* color: #fb0 !important */
+  color: #3e8c82 !important;
+
+}
+
+.w100{
+
+  width: 100% !important;
+
+}
+
+.blackM{
+
+  color: #2e3131 !important;
+
+}
+
+/* clases */
+
+.logo{
+
+  position: absolute;
+
+  width: 25%;
+
+  z-index: 1000;
+
+  color: white;
+
+  font-size: 3rem;
+
+}
+
+.logo img{
+
+  max-height: 200px !important;
+
+}
+
+.custom-info-event {
+
+  background: rgba(46, 49, 49, .5);
+
+  padding: 10px;
+
+}
+
+
+
+.title h2{
+
+  font-size: 18px;
+
+  margin: 10px auto;
+
+
+
+}
+
+.live-badge{
+
+  width: 40%;
+
+  background: #f22613;
+
+  color: white;
+
+  padding: 0px 10px;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+}
+
+.list-group li{
+
+  border-radius: 0px !important;
+
+}
+
+.info-head{
+
+  letter-spacing: 1px;
+
+  font-size: 10px;
+
+  text-align: center;
+
+}
+
+.button-yellow{
+
+  padding: 5px;
+
+  /* background: #fb0 !important; */
+  background: #3e8c82;
+
+  color: white !important;
+
+  border-radius: 15px;
+
+  text-decoration: none !important;
+
+  transition: .5s ease all;
+
+}
+
+.button-yellow:hover{
+
+  background: white !important;
+
+  /* border: 1px solid #fb0; */
+  border: 1px solid #3e8c82;
+
+  /* color: #fb0 !important; */
+  color: #3e8c82;
+
+}
+
+.btn-custom{
+
+  letter-spacing: 5px;
+
+  font-size: 13px;
+
+}
+
+.uk-subnav-pill>.uk-active>a{
+
+  /* background-color:  #fb0 !important; */
+  background-color: #3e8c82 !important;
+
+}
+
+
+
+footer{
+
+  min-height: 50px;
+
+  padding: 10px;
+
+  /* background: #fb0; */
+  background: #3e8c82;
+
+  color: white;
+
+}
+
